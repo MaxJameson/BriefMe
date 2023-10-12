@@ -16,6 +16,9 @@ print(Fore.YELLOW + "Importing libraries")
 from pathlib import Path
 from llama_index import download_loader
 from llama_index import GPTVectorStoreIndex
+from PyQt5.QtWidgets import *
+from PyQt5.QtCore import Qt
+from PyQt5 import uic
 
 # class for creating a chatbot
 class Chatbot:
